@@ -1,6 +1,11 @@
-(function() {
-    const style = document.createElement('style');
-    style.innerHTML = `
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>Oscar Teran Group | Join our Team</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./static/imgs/ICON-WEBCLIP.png" rel="shortcut icon" type="image/x-icon"/>
+    <style>
         :root {
             --color-primario: #121275;  /* azul oscuro */
             --color-secundario: #041723;  /* Azul dark*/
@@ -75,26 +80,28 @@
         font-style: normal;
         font-display: swap;
         }
-    `;
-    document.head.appendChild(style);
+    </style>
+</head>
 
-    const containers = document.querySelectorAll('.my-widget');
-    containers.forEach(container => {
-        container.innerHTML = `
-        <div class="my-widget-content">
-            <div class="my-widget-content-text">
-                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/bc6842-d7fb-d037-1056-dd5875b0738_14cbb886-ef44-4290-8762-5105d35a764e.png" alt="de cero a listing agent logo">
-                <h2>Curso Online</h2>
-                <h1>De cero a top <br> Listing Agent</h1>
-                <h3>El Curso que Transformará <br> Tu Carrera Inmobiliaria</h3>
-                <p>INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
-                <button>QUIERO ESTE CURSO</button>
-            </div>
-            <div class="my-widget-content-pic">
-                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/a4d8df3-841-c11-36ae-88be1bcf178c_c54fa26a-a505-4acb-af52-e6295643ef61.png" alt="Oscar Teran picture">
-            </div>
+<body class="body-2">
+    <!-- Modal de Newsletter -->
+    <main>
+        <script src="https://oscarterangroup.github.io/widgets/deceroalistinghero.js" type="text/javascript" async></script>
+        <div class="my-widget" data-id="12345" data-mode="dark" style="display: block;"></div>
+    </main>
+    <div class="my-widget-content">
+        <div class="my-widget-content-text">
+            <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/bc6842-d7fb-d037-1056-dd5875b0738_14cbb886-ef44-4290-8762-5105d35a764e.png" alt="de cero a listing agent logo">
+            <h2>Curso Online</h2>
+            <h1>De cero a top <br> Listing Agent</h1>
+            <h3>El Curso que Transformará <br> Tu Carrera Inmobiliaria</h3>
+            <p>INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
+            <button>QUIERO ESTE CURSO</button>
         </div>
-        `;
-    });
-})();
+        <div class="my-widget-content-pic">
+            <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/a4d8df3-841-c11-36ae-88be1bcf178c_c54fa26a-a505-4acb-af52-e6295643ef61.png" alt="Oscar Teran picture">
+        </div>
+    </div>
+</body>
 
+</html>
