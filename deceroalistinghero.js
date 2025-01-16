@@ -31,7 +31,7 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            justify-content: space-around;
+            justify-content: space-evenly;
             color: var(--color-terciario);
             font-family: var(--site-title-font);
             padding-left: 3rem;
@@ -92,7 +92,7 @@
         /* AvertaStd-Light */
         @font-face {
         font-family: "AvertaStd-Light";
-        src: url('./imgs/Averta-light.woff.ttf') format('truetype');
+        src: url('https://oscarterangroup.github.io/widgets/imgs/Averta-light.woff.ttf') format('truetype');
         font-weight: 400;
         font-style: normal;
         font-display: swap;
@@ -100,7 +100,7 @@
         /* Averta-Semibold */
         @font-face {
         font-family: "Averta-Semibold";
-        src: url('./imgs/Averta-Semibold.ttf') format('truetype');
+        src: url('https://oscarterangroup.github.io/widgets/imgs/Averta-Semibold.ttf') format('truetype');
         font-weight: 400;
         font-style: normal;
         font-display: swap;
@@ -109,7 +109,7 @@
         /* Averta-Semibold */
         @font-face {
         font-family: "AvertaDemo-ExtraBoldItalic";
-        src: url('./imgs/AvertaDemo-ExtraBoldItalic.otf') format('truetype');
+        src: url('https://oscarterangroup.github.io/widgets/imgs/AvertaDemo-ExtraBoldItalic.otf') format('truetype');
         font-weight: 400;
         font-style: normal;
         font-display: swap;
