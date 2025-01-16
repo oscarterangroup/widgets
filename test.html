@@ -42,7 +42,46 @@
             padding-left: 3rem;
         }
         .my-widget-content-text img{
-            width: 30%;
+            width: 27%;
+        }
+        .my-widget-content-text .my-widget-content-text-inner h2{
+            font-size: 42px;
+            margin: 0%;
+            text-transform: uppercase;
+        }
+        .my-widget-content-text .my-widget-content-text-inner h1{
+            font-size: 104px;
+            margin: 0%;
+            text-transform: uppercase;
+            font-family: var(--site-titlesec-font);
+        }
+        .my-widget-content-text .my-widget-content-text-inner h3{
+            font-size: 36px;
+            margin: 0%;
+        }
+        .my-widget-content-text .my-widget-content-text-inner p{
+            max-width: 80%;
+        }
+        .otg-button-111 {
+            height: 60px;
+            background-color: var(--color-secundario);
+            min-width: 250px;
+            color: var(--color-terciario);
+            padding: 0 30px;
+            border: 0.5px solid var(--color-secundario);
+            border-radius: var(--border-btn);
+            font-family: var(--site-title-font);
+            text-transform: uppercase;
+            transition: background-color 1.0s ease;
+        }
+
+        .otg-button-111:hover {
+            background-color: var(--color-terciario);
+            min-width: 250px;
+            color: var(--color-secundario);
+            border: 1px solid var(--color-secundario);
+            border-radius: var(--border-btn);
+            cursor: pointer;
         }
         .my-widget-content-pic {
             flex: 1;
@@ -92,11 +131,13 @@
     <div class="my-widget-content">
         <div class="my-widget-content-text">
             <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/bc6842-d7fb-d037-1056-dd5875b0738_14cbb886-ef44-4290-8762-5105d35a764e.png" alt="de cero a listing agent logo">
-            <h2>Curso Online</h2>
-            <h1>De cero a top <br> Listing Agent</h1>
-            <h3>El Curso que Transformará <br> Tu Carrera Inmobiliaria</h3>
-            <p>INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
-            <button>QUIERO ESTE CURSO</button>
+            <div class="my-widget-content-text-inner">
+                <h2>Curso Online:</h2>
+                <h1>De cero a top <br> Listing Agent</h1>
+                <h3>El Curso que Transformará <br> Tu Carrera Inmobiliaria</h3>
+                <p>INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
+            </div>
+            <button class="otg-button-111">QUIERO ESTE CURSO</button>
         </div>
         <div class="my-widget-content-pic">
             <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/a4d8df3-841-c11-36ae-88be1bcf178c_c54fa26a-a505-4acb-af52-e6295643ef61.png" alt="Oscar Teran picture">
