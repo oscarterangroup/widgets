@@ -31,6 +31,7 @@
             background-position: 50% 0;
             background-repeat: no-repeat;
             width: 100%;
+            min-height: 75vh;
         }
     
         .my-widget-content-text {
@@ -56,7 +57,7 @@
         }
     
         .my-widget-content-text .my-widget-content-text-inner h1 {
-            font-size: 104px;
+            font-size: 7vw;
             margin: 0%;
             text-transform: uppercase;
             font-family: var(--site-titlesec-font);
@@ -64,7 +65,7 @@
         }
     
         .my-widget-content-text .my-widget-content-text-inner h3 {
-            font-size: 36px;
+            font-size: 3vw;
             margin: 0%;
             color: var(--color-terciario);
         }
@@ -72,6 +73,7 @@
         .my-widget-content-text .my-widget-content-text-inner p {
             max-width: 80%;
             color: var(--color-terciario);
+            font-size: 1.1vw;
         }
     
         .otg-button-111 {
@@ -150,7 +152,7 @@
             display: none;
         }
 
-        @media screen and (max-width: 1240px) {
+        @media screen and (max-width: 479px) {
             .mobile {
                 display: block;
                 width: 100%;
@@ -159,6 +161,9 @@
             .mobile img{
                 display: block;
                 width: 100%;
+            }
+            .my-widget-content {
+                min-height: 0vh;
             }
             .my-widget-content-pic, .my-widget-content-text {
                 display: none;
