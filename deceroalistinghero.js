@@ -150,7 +150,7 @@
             display: none;
         }
 
-        @media screen and (max-width: 479px) {
+        @media screen and (max-width: 1240px) {
             .mobile {
                 display: block;
                 width: 100%;
