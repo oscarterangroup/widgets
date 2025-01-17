@@ -31,7 +31,6 @@
             background-position: 50% 0;
             background-repeat: no-repeat;
             width: 100%;
-            min-height: 75vh;
         }
     
         .my-widget-content-text {
@@ -152,7 +151,7 @@
             display: none;
         }
 
-        @media screen and (max-width: 479px) {
+        @media screen and (max-width: 1024px) {
             .mobile {
                 display: block;
                 width: 100%;
