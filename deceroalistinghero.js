@@ -213,7 +213,7 @@
                 <a href="#section-1734730516064"><button class="otg-button-111">¡TRANSFORMA TU NEGOCIO HOY!</button></a>
             </div>
             <div class="my-widget-content-pic">
-                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/510e5a3-f2fc-4f35-bf1-a8b6a1d8d1d_oscarteranhero291.png" alt="Oscar Teran picture">
+                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/ab425a-de15-baf-4ae6-53ddc6f81054_oscarteranhero292.png" alt="Oscar Teran picture">
             </div>
             <div class="mobile">
                 <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/a330ea0-cccf-b5bb-3325-e444efd0c74d_oscarteranherobanner.png" alt="banner de cero a listing">
