@@ -213,10 +213,10 @@
                 <a href="#section-1734730516064"><button class="otg-button-111">QUIERO ESTE CURSO</button></a>
             </div>
             <div class="my-widget-content-pic">
-                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/a4d8df3-841-c11-36ae-88be1bcf178c_c54fa26a-a505-4acb-af52-e6295643ef61.png" alt="Oscar Teran picture">
+                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/510e5a3-f2fc-4f35-bf1-a8b6a1d8d1d_oscarteranhero291.png" alt="Oscar Teran picture">
             </div>
             <div class="mobile">
-                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/e4a164-506e-6e0-d658-5d1bc86c43a_THMBNAILCURSO.jpg" alt="banner de cero a listing">
+                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/a330ea0-cccf-b5bb-3325-e444efd0c74d_oscarteranherobanner.png" alt="banner de cero a listing">
             </div>
         </div>
         `;
