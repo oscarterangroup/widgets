@@ -77,11 +77,11 @@
     
         .otg-button-111 {
             height: 60px;
-            background-color: var(--color-secundario);
+            background-color: #25d366;
             min-width: 250px;
             color: var(--color-terciario);
             padding: 0 30px;
-            border: 0.5px solid var(--color-secundario);
+            border: 0.5px solid #25d366;
             border-radius: var(--border-btn);
             font-family: var(--site-title-font);
             text-transform: uppercase;
