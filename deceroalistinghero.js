@@ -207,8 +207,8 @@
                 <div class="my-widget-content-text-inner">
                     <h2>Curso Online:</h2>
                     <h1>De cero a top <br> Listing Agent</h1>
-                    <h3>Conviértete en el Listing Agent <br> Que Todos Quieren Contratar</h3>
-                    <p>INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
+                    <h3>¡Conviértete en el Listing Agent <br> Que Todos Quieren Contratar!</h3>
+                    <p style="font-style: italic; margin-top: 1.5rem;">INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
                 </div>
                 <a href="#section-1734730516064"><button class="otg-button-111" style="font-weight: 700; font-family: Open Sans; padding: 12px 40px; font-size: 1.3rem;">¡TRANSFORMA TU NEGOCIO HOY!</button></a>
             </div>
