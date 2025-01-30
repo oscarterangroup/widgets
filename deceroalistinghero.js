@@ -207,7 +207,7 @@
                 <div class="my-widget-content-text-inner">
                     <h2>Curso Online:</h2>
                     <h1>De cero a top <br> Listing Agent</h1>
-                    <h3>El Curso que Transformará <br> Tu Carrera Inmobiliaria</h3>
+                    <h3>Conviértete en el Listing Agent <br> Que Todos Quieren Contratar</h3>
                     <p>INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
                 </div>
                 <a href="#section-1734730516064"><button class="otg-button-111" style="font-weight: 600; font-family: Open-sans;">¡TRANSFORMA TU NEGOCIO HOY!</button></a>
