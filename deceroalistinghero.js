@@ -210,7 +210,7 @@
                     <h3>Conviértete en el Listing Agent <br> Que Todos Quieren Contratar</h3>
                     <p>INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
                 </div>
-                <a href="#section-1734730516064"><button class="otg-button-111" style="font-weight: 600; font-family: Open-sans;">¡TRANSFORMA TU NEGOCIO HOY!</button></a>
+                <a href="#section-1734730516064"><button class="otg-button-111" style="font-weight: 600; font-family: Open Sans; padding: 12px 40px;">¡TRANSFORMA TU NEGOCIO HOY!</button></a>
             </div>
             <div class="my-widget-content-pic">
                 <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/ab425a-de15-baf-4ae6-53ddc6f81054_oscarteranhero292.png" alt="Oscar Teran picture">
