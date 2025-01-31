@@ -78,6 +78,7 @@
             max-width: 80%;
             color: var(--color-terciario);
             font-size: 1.1vw;
+            text-transform: uppercase;
         }
     
         .otg-button-111 {
@@ -154,8 +155,20 @@
         .nav-1111-right a {
             padding: 0 20px;
         }
+        .mobile {
+            display: none;
+        }
+        .desktop {
+            display:  block;
+        }
 
         @media screen and (max-width: 1024px) {
+            .mobile {
+                display: block;
+            }
+            .desktop {
+                display: none;
+            }
             .my-widget-content {
                 min-height: 0vh;
             }
@@ -199,6 +212,7 @@
                 margin-top: 1.0rem;
                 text-align: center;
                 font-size: 0.8rem;
+                text-transform: none;
             }
             .otg-button-111 {
                 padding: 12px 20px;
@@ -252,9 +266,10 @@
             <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/bc6842-d7fb-d037-1056-dd5875b0738_14cbb886-ef44-4290-8762-5105d35a764e.png" alt="de cero a listing agent logo">
             <div class="my-widget-content-text-inner">
                 <h2>Curso Online:</h2>
-                <h1>De cero a top <br> Listing Agent</h1>
+                <h1 class="desktop">De cero a top <br> Listing Agent</h1>
+                <h1 class="mobile">De cero a <br> top Listing Agent</h1>
                 <h3>¡Conviértete en el Listing Agent <br> que todos quieren contratar!</h3>
-                <p style="font-style: italic; margin-top: 1.5rem;">INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
+                <p style="font-style: italic; margin-top: 1.5rem;">Incluye un ebook con comandos de inteligencia artificial diseñados para impulsar tus ventas hoy</p>
             </div>
             <a href="#section-1734730516064"><button class="otg-button-111">¡TRANSFORMA TU NEGOCIO HOY!</button></a>
         </div>

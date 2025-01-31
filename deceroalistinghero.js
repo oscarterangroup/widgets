@@ -73,6 +73,7 @@
             max-width: 80%;
             color: var(--color-terciario);
             font-size: 1.1vw;
+            text-transform: uppercase;
         }
     
         .otg-button-111 {
@@ -80,12 +81,14 @@
             background-color: #25d366;
             min-width: 250px;
             color: var(--color-terciario);
-            padding: 0 30px;
             border: 0.5px solid #25d366;
             border-radius: var(--border-btn);
-            font-family: var(--site-title-font);
             text-transform: uppercase;
             transition: background-color 1.0s ease;
+            font-weight: 700; 
+            font-family: Open Sans; 
+            padding: 12px 40px; 
+            font-size: 1.3rem;
         }
     
         .otg-button-111:hover {
@@ -150,22 +153,75 @@
         .mobile {
             display: none;
         }
+        .desktop {
+            display:  block;
+        }
 
         @media screen and (max-width: 1024px) {
             .mobile {
                 display: block;
-                width: 100%;
             }
-
-            .mobile img{
-                display: block;
-                width: 100%;
+            .desktop {
+                display: none;
             }
             .my-widget-content {
                 min-height: 0vh;
             }
-            .my-widget-content-pic, .my-widget-content-text {
-                display: none;
+            .my-widget-content {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                min-height: 90vh;
+                background-image: url('https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/4d482e-3fe-1e6b-0423-015500f7e55_36f69a7f-7e0b-4ac3-a582-778bbf2a8244.jpg');
+                background-position: 90% 0;
+            }
+            .my-widget-content-text {
+                padding: 1rem;
+                align-items: center;
+            }
+            .my-widget-content-text img {
+                width: 40%;
+                margin-bottom: 1rem;
+            }
+            .my-widget-content-text .my-widget-content-text-inner h2 {
+                font-size: 18px;
+                text-align: center;
+                margin: 0%;
+                text-transform: uppercase;
+                color: var(--color-terciario);
+            }
+            .my-widget-content-text .my-widget-content-text-inner h1 {
+                font-size: 2.2rem;
+                margin: 1rem 0%;
+                text-align: center;
+            }
+            .my-widget-content-text .my-widget-content-text-inner h3 {
+                font-size: 1.2rem;
+                margin: 0%;
+                color: var(--color-terciario);
+                text-align: center;
+            }
+            .my-widget-content-text .my-widget-content-text-inner p {
+                max-width: 100%;
+                font-style: italic;
+                margin-top: 1.0rem;
+                text-align: center;
+                font-size: 0.8rem;
+                text-transform: none;
+            }
+            .otg-button-111 {
+                padding: 12px 20px;
+                font-size: 0.9rem;
+                margin-top: 1rem;
+                height: auto;
+            }
+            .my-widget-content-pic {
+                flex: 1;
+                align-items: flex-end;
+                justify-content: flex-end;
+            }
+            .my-widget-content-pic img {
+                width: 100%;
             }
         }
     
@@ -206,17 +262,15 @@
                 <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/bc6842-d7fb-d037-1056-dd5875b0738_14cbb886-ef44-4290-8762-5105d35a764e.png" alt="de cero a listing agent logo">
                 <div class="my-widget-content-text-inner">
                     <h2>Curso Online:</h2>
-                    <h1>De cero a top <br> Listing Agent</h1>
+                    <h1 class="desktop">De cero a top <br> Listing Agent</h1>
+                    <h1 class="mobile">De cero a <br> top Listing Agent</h1>
                     <h3>¡Conviértete en el Listing Agent <br> que todos quieren contratar!</h3>
-                    <p style="font-style: italic; margin-top: 1.5rem;">INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
+                    <p style="font-style: italic; margin-top: 1.5rem;">Incluye un ebook con comandos de inteligencia artificial diseñados para impulsar tus ventas hoy</p>
                 </div>
-                <a href="#section-1734730516064"><button class="otg-button-111" style="font-weight: 700; font-family: Open Sans; padding: 12px 40px; font-size: 1.3rem;">¡TRANSFORMA TU NEGOCIO HOY!</button></a>
+                <a href="#section-1734730516064"><button class="otg-button-111">¡TRANSFORMA TU NEGOCIO HOY!</button></a>
             </div>
             <div class="my-widget-content-pic">
                 <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/ab425a-de15-baf-4ae6-53ddc6f81054_oscarteranhero292.png" alt="Oscar Teran picture">
-            </div>
-            <div class="mobile">
-                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/a330ea0-cccf-b5bb-3325-e444efd0c74d_oscarteranherobanner.png" alt="banner de cero a listing">
             </div>
         </div>
         `;
