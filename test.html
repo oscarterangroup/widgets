@@ -36,7 +36,6 @@
             background-position: 50% 0;
             background-repeat: no-repeat;
             width: 100%;
-            min-height: 75vh;
         }
     
         .my-widget-content-text {
@@ -83,15 +82,17 @@
     
         .otg-button-111 {
             height: 60px;
-            background-color: var(--color-secundario);
+            background-color: #25d366;
             min-width: 250px;
             color: var(--color-terciario);
-            padding: 0 30px;
-            border: 0.5px solid var(--color-secundario);
+            border: 0.5px solid #25d366;
             border-radius: var(--border-btn);
-            font-family: var(--site-title-font);
             text-transform: uppercase;
             transition: background-color 1.0s ease;
+            font-weight: 700; 
+            font-family: Open Sans; 
+            padding: 12px 40px; 
+            font-size: 1.3rem;
         }
     
         .otg-button-111:hover {
@@ -153,25 +154,65 @@
         .nav-1111-right a {
             padding: 0 20px;
         }
-        .mobile {
-            display: none;
-        }
 
-        @media screen and (max-width: 479px) {
-            .mobile {
-                display: block;
-                width: 100%;
-            }
-
-            .mobile img{
-                display: block;
-                width: 100%;
-            }
+        @media screen and (max-width: 1024px) {
             .my-widget-content {
                 min-height: 0vh;
             }
-            .my-widget-content-pic, .my-widget-content-text {
-                display: none;
+            .my-widget-content {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                min-height: 90vh;
+                background-image: url('https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/4d482e-3fe-1e6b-0423-015500f7e55_36f69a7f-7e0b-4ac3-a582-778bbf2a8244.jpg');
+                background-position: 90% 0;
+            }
+            .my-widget-content-text {
+                padding: 1rem;
+                align-items: center;
+            }
+            .my-widget-content-text img {
+                width: 40%;
+                margin-bottom: 1rem;
+            }
+            .my-widget-content-text .my-widget-content-text-inner h2 {
+                font-size: 18px;
+                text-align: center;
+                margin: 0%;
+                text-transform: uppercase;
+                color: var(--color-terciario);
+            }
+            .my-widget-content-text .my-widget-content-text-inner h1 {
+                font-size: 2.2rem;
+                margin: 1rem 0%;
+                text-align: center;
+            }
+            .my-widget-content-text .my-widget-content-text-inner h3 {
+                font-size: 1.2rem;
+                margin: 0%;
+                color: var(--color-terciario);
+                text-align: center;
+            }
+            .my-widget-content-text .my-widget-content-text-inner p {
+                max-width: 100%;
+                font-style: italic;
+                margin-top: 1.0rem;
+                text-align: center;
+                font-size: 0.8rem;
+            }
+            .otg-button-111 {
+                padding: 12px 20px;
+                font-size: 0.9rem;
+                margin-top: 1rem;
+                height: auto;
+            }
+            .my-widget-content-pic {
+                flex: 1;
+                align-items: flex-end;
+                justify-content: flex-end;
+            }
+            .my-widget-content-pic img {
+                width: 100%;
             }
         }
     
@@ -212,16 +253,13 @@
             <div class="my-widget-content-text-inner">
                 <h2>Curso Online:</h2>
                 <h1>De cero a top <br> Listing Agent</h1>
-                <h3>El Curso que Transformará <br> Tu Carrera Inmobiliaria</h3>
-                <p>INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
+                <h3>¡Conviértete en el Listing Agent <br> que todos quieren contratar!</h3>
+                <p style="font-style: italic; margin-top: 1.5rem;">INCLUYE UN EBOOK CON COMANDOS DE INTELIGENCIA ARTIFICIAL DISEÑADOS PARA IMPULSAR TUS VENTAS HOY</p>
             </div>
-            <a href="#section-1734730516064"><button class="otg-button-111">QUIERO ESTE CURSO</button></a>
+            <a href="#section-1734730516064"><button class="otg-button-111">¡TRANSFORMA TU NEGOCIO HOY!</button></a>
         </div>
         <div class="my-widget-content-pic">
-            <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/a4d8df3-841-c11-36ae-88be1bcf178c_c54fa26a-a505-4acb-af52-e6295643ef61.png" alt="Oscar Teran picture">
-        </div>
-        <div class="mobile">
-            <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/e4a164-506e-6e0-d658-5d1bc86c43a_THMBNAILCURSO.jpg" alt="banner de cero a listing">
+            <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/ab425a-de15-baf-4ae6-53ddc6f81054_oscarteranhero292.png" alt="Oscar Teran picture">
         </div>
     </div>
 </body>
