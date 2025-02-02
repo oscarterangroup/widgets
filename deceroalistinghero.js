@@ -41,11 +41,16 @@
             justify-content: space-evenly;
             color: var(--color-terciario);
             font-family: var(--site-title-font);
+            padding: 1rem;
             padding-left: 3rem;
         }
     
         .my-widget-content-text img {
             width: 27%;
+        }
+
+        .my-widget-content-text a {
+            margin-top: 1rem;
         }
     
         .my-widget-content-text .my-widget-content-text-inner h2 {
@@ -335,7 +340,7 @@
                     <h3>¡Conviértete en el Listing Agent <br> que todos quieren contratar!</h3>
                     <p style="font-style: italic; margin-top: 1.5rem;">Incluye un ebook con comandos de inteligencia artificial diseñados para impulsar tus ventas hoy</p>
                 </div>
-                <a href="#section-1734730516064"><button class="otg-button-111">¡TRANSFORMA TU NEGOCIO HOY!</button></a>
+                <a href="https://oscar-teran.mykajabi.com/offers/bVux8Gu6"><button class="otg-button-111">¡TRANSFORMA TU NEGOCIO HOY!</button></a>
             </div>
             <div class="my-widget-content-pic">
                 <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/ab425a-de15-baf-4ae6-53ddc6f81054_oscarteranhero292.png" alt="Oscar Teran picture">
