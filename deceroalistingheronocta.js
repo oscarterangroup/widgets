@@ -1,0 +1,351 @@
+(function() {
+    const style = document.createElement('style');
+    style.innerHTML = `
+        :root {
+            --color-primario: #121275;
+            /* azul oscuro */
+            --color-secundario: #041723;
+            /* Azul dark*/
+            --color-terciario: #FFFFFF;
+            /* Blanco */
+            --color-gris: #888A8E;
+            /* Gris claro */
+            --transparent-bg: rgba(0, 0, 0, 0.10);
+            --site-title-font: "Averta-Semibold";
+            --site-paragraph-font: "AvertaStd-Light";
+            --site-titlesec-font: "AvertaDemo-ExtraBoldItalic";
+            --border-btn: 50px;
+            --border-cont: 20px;
+        }
+    
+        body {
+            margin: 0;
+        }
+    
+        .my-widget-content {
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            background-image: url('https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/66ee1e-7420-5882-8fbb-87b21c73a2b_wallpapersuperventas.png');
+            background-size: cover;
+            background-position: 50% 0;
+            background-repeat: no-repeat;
+            width: 100%;
+        }
+    
+        .my-widget-content-text {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            color: var(--color-terciario);
+            font-family: var(--site-title-font);
+            padding: 1rem;
+            padding-left: 3rem;
+        }
+    
+        .my-widget-content-text img {
+            width: 27%;
+        }
+
+        .my-widget-content-text a {
+            margin-top: 1rem;
+        }
+    
+        .my-widget-content-text .my-widget-content-text-inner h2 {
+            font-size: 42px;
+            margin: 0%;
+            text-transform: uppercase;
+            color: var(--color-terciario);
+        }
+    
+        .my-widget-content-text .my-widget-content-text-inner h1 {
+            font-size: 7vw;
+            margin: 0%;
+            text-transform: uppercase;
+            font-family: var(--site-titlesec-font);
+            color: var(--color-terciario);
+        }
+    
+        .my-widget-content-text .my-widget-content-text-inner h3 {
+            font-size: 3vw;
+            margin: 0%;
+            color: var(--color-terciario);
+        }
+    
+        .my-widget-content-text .my-widget-content-text-inner p {
+            max-width: 80%;
+            color: var(--color-terciario);
+            font-size: 1.1vw;
+            text-transform: uppercase;
+        }
+    
+        .otg-button-111 {
+            height: 60px;
+            background-color: #25d366;
+            min-width: 250px;
+            color: var(--color-terciario);
+            border: 0.5px solid #25d366;
+            border-radius: var(--border-btn);
+            text-transform: uppercase;
+            transition: background-color 1.0s ease;
+            font-weight: 700; 
+            font-family: Open Sans; 
+            padding: 12px 40px; 
+            font-size: 1.3rem;
+        }
+    
+        .otg-button-111:hover {
+            background-color: var(--color-terciario);
+            min-width: 250px;
+            color: var(--color-secundario);
+            border: 1px solid var(--color-secundario);
+            border-radius: var(--border-btn);
+            cursor: pointer;
+        }
+    
+        .my-widget-content-pic {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    
+        .my-widget-content-pic img {
+            width: 100%;
+        }
+    
+        p {
+            margin-bottom: 0;
+        }
+    
+        .nav-1111 {
+            display: flex;
+            height: 100px;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px 40px 0px 40px;
+            padding: 0 40px 0 0;
+            background-color: transparent;
+            z-index: 12;
+        }
+    
+        .nav-1111 a {
+            font-family: var(--site-title-font);
+            text-decoration: none;
+            color: var(--color-terciario) !important;
+            font-size: 1.1rem !important;
+        }
+    
+        .nav-1111-left {
+            width: 18%;
+        }
+    
+        .nav-1111-left img {
+            width: 100%;
+        }
+    
+        .nav-1111-right {
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .nav-1111-right a {
+            padding: 0 20px;
+        }
+        .mobile {
+            display: none;
+        }
+        .desktop {
+            display:  block;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .mobile {
+                display: block;
+            }
+            .desktop {
+                display: none;
+            }
+            .my-widget-content {
+                min-height: 0vh;
+            }
+            .my-widget-content {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                min-height: 90vh;
+                background-image: url('https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/4d482e-3fe-1e6b-0423-015500f7e55_36f69a7f-7e0b-4ac3-a582-778bbf2a8244.jpg');
+                background-position: 90% 0;
+            }
+            .my-widget-content-text {
+                padding: 1rem;
+                align-items: center;
+            }
+            .my-widget-content-text img {
+                width: 30%;
+                margin-bottom: 1rem;
+            }
+            .my-widget-content-text .my-widget-content-text-inner h2 {
+                font-size: 3rem;
+                text-align: center;
+                margin: 0%;
+                text-transform: uppercase;
+                color: var(--color-terciario);
+            }
+            .my-widget-content-text .my-widget-content-text-inner h1 {
+                font-size: 6rem;
+                margin: 1rem 0%;
+                text-align: center;
+            }
+            .my-widget-content-text .my-widget-content-text-inner h3 {
+                font-size: 3rem;
+                margin: 0%;
+                color: var(--color-terciario);
+                text-align: center;
+            }
+            .my-widget-content-text .my-widget-content-text-inner p {
+                max-width: 100%;
+                font-style: italic;
+                margin-top: 1.0rem;
+                text-align: center;
+                font-size: 2rem;
+                text-transform: none;
+            }
+            .otg-button-111 {
+                padding: 22px 40px;
+                font-size: 2rem;
+                margin-top: 1rem;
+                height: auto;
+            }
+            .my-widget-content-pic {
+                flex: 1;
+                align-items: flex-end;
+                justify-content: flex-end;
+            }
+            .my-widget-content-pic img {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 487px) {
+            .mobile {
+                display: block;
+            }
+            .desktop {
+                display: none;
+            }
+            .my-widget-content {
+                min-height: 0vh;
+            }
+            .my-widget-content {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                min-height: 90vh;
+                background-image: url('https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/4d482e-3fe-1e6b-0423-015500f7e55_36f69a7f-7e0b-4ac3-a582-778bbf2a8244.jpg');
+                background-position: 90% 0;
+            }
+            .my-widget-content-text {
+                padding: 1rem;
+                align-items: center;
+            }
+            .my-widget-content-text img {
+                width: 40%;
+                margin-bottom: 1rem;
+            }
+            .my-widget-content-text .my-widget-content-text-inner h2 {
+                font-size: 18px;
+                text-align: center;
+                margin: 0%;
+                text-transform: uppercase;
+                color: var(--color-terciario);
+            }
+            .my-widget-content-text .my-widget-content-text-inner h1 {
+                font-size: 2.2rem;
+                margin: 1rem 0%;
+                text-align: center;
+            }
+            .my-widget-content-text .my-widget-content-text-inner h3 {
+                font-size: 1.2rem;
+                margin: 0%;
+                color: var(--color-terciario);
+                text-align: center;
+            }
+            .my-widget-content-text .my-widget-content-text-inner p {
+                max-width: 100%;
+                font-style: italic;
+                margin-top: 1.0rem;
+                text-align: center;
+                font-size: 0.8rem;
+                text-transform: none;
+            }
+            .otg-button-111 {
+                padding: 12px 20px;
+                font-size: 0.9rem;
+                margin-top: 1rem;
+                height: auto;
+            }
+            .my-widget-content-pic {
+                flex: 1;
+                align-items: flex-end;
+                justify-content: flex-end;
+            }
+            .my-widget-content-pic img {
+                width: 100%;
+            }
+        }
+    
+        /* AvertaStd-Light */
+        @font-face {
+            font-family: "AvertaStd-Light";
+            src: url('https://oscarterangroup.github.io/widgets/imgs/Averta-light.woff.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+    
+        /* Averta-Semibold */
+        @font-face {
+            font-family: "Averta-Semibold";
+            src: url('https://oscarterangroup.github.io/widgets/imgs/Averta-Semibold.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+    
+        /* Averta-Semibold */
+        @font-face {
+            font-family: "AvertaDemo-ExtraBoldItalic";
+            src: url('https://oscarterangroup.github.io/widgets/imgs/AvertaDemo-ExtraBoldItalic.otf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+    `;
+    document.head.appendChild(style);
+
+    const containers = document.querySelectorAll('.my-widget');
+    containers.forEach(container => {
+        container.innerHTML = `
+        <div class="my-widget-content">
+            <div class="my-widget-content-text">
+                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/bc6842-d7fb-d037-1056-dd5875b0738_14cbb886-ef44-4290-8762-5105d35a764e.png" alt="de cero a listing agent logo">
+                <div class="my-widget-content-text-inner">
+                    <h2>Curso Online:</h2>
+                    <h1 class="desktop">De cero a top <br> Listing Agent</h1>
+                    <h1 class="mobile">De cero a <br> top Listing Agent</h1>
+                    <h3>¡Conviértete en el Listing Agent <br> que todos quieren contratar!</h3>
+                    <p style="font-style: italic; margin-top: 1.5rem;">Incluye un ebook con comandos de inteligencia artificial diseñados para impulsar tus ventas hoy</p>
+                </div>
+            </div>
+            <div class="my-widget-content-pic">
+                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159589961/settings_images/ab425a-de15-baf-4ae6-53ddc6f81054_oscarteranhero292.png" alt="Oscar Teran picture">
+            </div>
+        </div>
+        `;
+    });
+})();
+
